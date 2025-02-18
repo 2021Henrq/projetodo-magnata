@@ -1,20 +1,19 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package javaapplication1;
+import java.util..Scanner;
 
-/**
- *
- * @author Fortec
- */
 public class JavaApplication1 {
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Seu primeiro programa"
+                + "versionando com git e hospedando no gitHub!");
+        System.out.println("Digite o primeiro valor:");
+        int num1 = sccan.nextINT();
+        System.out.pirntln("Digite o segundo valor:");
+        int num2 = scan.nextINT();
+        System.out.println("A soma é:" + (num1+num2));
+        
     }
     
 }
